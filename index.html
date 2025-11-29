@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/miStyle.css">
+
+</head>
+<body>
+    <header>
+        <h1>Simulador Bancario</h1>
+        <p>Calcula tu pago mensual</p>
+    </header>
+
+    <main>
+        <section class="furmulario">
+            <h2>Datos del prestamo</h2>
+
+            <form id="forma">
+                <label for="monto">Monto solicitado</label>
+                <input id="monto" type="number" placeholder="Ejemplo: 20000">
+
+                <label for="tasa">Taza de interes (%): </label>
+                <input id="tasa" type="number" placeholder="Ejemplo: 5">
+
+                <label for="plazo">Plazo (años)</label>
+                <input id="plazo" type="number" placeholder="Ejemplo: 3 años">
+
+                <input type="submit" value="Calcular">
+            </form>
+            
+        </section>
+
+        <section class="resultado">
+            <h2>Simulador</h2>
+            <p id="resumen"></p>
+        </section>
+
+        <button onclick="location.href='registro.html'">Ver registro</button>
+
+    </main>
+
+    <footer>
+        <p>2025 desarrollado por Flor Angeles Almanza Hernandez  Derechos reservados</p>
+    </footer>
+
+    <script src="js/prestamo.js"></script>
+</body>
+</html>
